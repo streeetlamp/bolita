@@ -1,0 +1,26 @@
+{
+    "name": "whitbycw/bolita",
+    "description": "bolita",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cody W",
+            "email": "cody@codywhitby.net"
+        }
+    ],
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"http://wpackagist.org"
+        }
+    ],
+    "require": {
+        "wpackagist-plugin/caldera-forms":"*",
+        "roots/soil": "*"
+    },
+    "extra": {
+        "installer-paths": {
+            "../../plugins/{$name}/": ["type:wordpress-plugin"]
+        }
+    }
+}
